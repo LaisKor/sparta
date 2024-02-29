@@ -35,7 +35,7 @@ for member in members :
         title = f"{member.nickname}의 게시물 {i+1}"
         content = f"{member.nickname}의 내용 {i+1}"
         author = member.nickname
-        post = Post(title, content, member.nickname)
+        post = Post(title, content, author)
         posts.append(post)
 
 def searchid():
